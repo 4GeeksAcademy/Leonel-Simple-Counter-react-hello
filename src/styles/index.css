@@ -1,12 +1,75 @@
+.titleStyle{
+    color: white;
+    text-align: center;
+}
 
-/* 
+.textStyle{
+    color: white;
+   text-align: center;
+   font-size: 40px;
+   margin-right: 15px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.bodyStyle{
+    background: black;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
 
-*/
+
+.containerActionAlert{
+    position: relative;
+    height:  700px;
+}
+
+.conteiner-card{
+    height:  700px;
+}
+
+
+.conteiner-fluid{
+    position: relative;
+ }
+
+.iconAlarm{
+    margin-bottom: 9px;
+}
+.alarmStyle{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 50%;
+}
+
+.classButton{
+    margin-left:10px;
+    margin-top: -6px;
+}
+
+.bodyTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hourGlass{
+    color: white;
+    margin-top: -10px;
+}
+
+
+.inputTextCountDown{
+    height: 35px;
+    width: 200px;
+}
+
+.alarmComponent{
+    margin-left: 45px;
+}
+
+.inputTextAlarm{
+    height: 37px;
+}
